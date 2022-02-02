@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f9fafb;
+}
+
+.center {
+    text-align: center;
+}
+
+.coin-app {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px auto 30px auto;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin-search {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-text {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.coin-input {
+    padding-left: 16px;
+    width: 380px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+}
+
+.coin-input::placeholder {
+    color: #444;
+}
+
+.links h4 {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.navs {
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem .5rem 0 0;
+    background-color: #fff;
+}
+
+.coin-header {
+    width: 1000px;
+    padding: 1rem 0 1rem 0;
+}
+
+.coin-header span {
+    display: inline-block;
+}
+
+.coin-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 80px;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.coin span {
+    padding: 0 2rem 0 .5rem;
+}
+
+.coin h1 {
+    font-size: 16px;
+    width: 150px;
+}
+
+.coin img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+}
+
+.coin-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-n {
+    margin: 0 .7rem 0 2.5rem;
+    width: 2rem;
+}
+
+.coin-name {
+    width: 160px;
+}
+
+.coin-sym {
+    width: 90px;
+}
+
+.coin-price {
+    width: 110px;
+}
+
+.coin-volume {
+    width: 200px;
+}
+
+.coin-marketcap {
+    width: 240px;
+}
+
+.coin-percent {
+    width: 80px;
+}
+
+.red {
+    color: #f00606;
+}
+
+.green {
+    color: #11d811;
+}
